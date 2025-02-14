@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us - Medicine Recommendation System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #f8f9fa; /* Light background for contrast */
+        }
+        .container {
+            max-width: 800px; /* Limit width for better readability */
+            margin: auto; /* Center the container */
+        }
+        .section-title {
+            color: #F39334; /* Custom color for section titles */
+            margin-top: 20px;
+        }
+        .section-card {
+            border: 1px solid #ddd; /* Light border for cards */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            padding: 20px; /* Padding inside cards */
+            margin-bottom: 20px; /* Spacing between cards */
+            background-color: #ffffff; /* White background for cards */
+        }
+        .contact-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .contact-info i {
+            font-size: 24px; /* Icon size */
+            color: #F39334; /* Icon color */
+            margin-right: 10px; /* Space between icon and text */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid" style="background: darkslategrey;">
+            <a class="navbar-brand" href="#">Drug Recommendation Centre</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/bot">Chatbot</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-4">
+        <h4 class="section-title">Contact Us</h4>
+        <div class="section-card">
+            <p>Have questions or need assistance? We're here to help!</p>
+        </div>
+
+        <h4 class="section-title">Customer Support</h4>
+        <div class="section-card">
+            <p>Our dedicated customer support team is available to assist you with any inquiries or issues you may have. Whether it's a technical question, feedback, or a general inquiry, we're just a message away.</p>
+        </div>
+
+        <h4 class="section-title">Get in Touch</h4>
+        <div class="section-card">
+            <p>Feel free to reach out to us via email or through the contact form below. We value your feedback and are committed to providing you with the best possible experience.</p>
+            <div class="contact-info">
+                <i class="bi bi-envelope-fill"></i>
+                <b>Email:</b> <a href="mailto:junaidmehsuud035@gmail.com">user@gmail.com</a>
+            </div>
+            <div class="contact-info">
+                <i class="bi bi-telephone-fill"></i>
+                <b>Phone:</b> <a href="tel:+923477155035">1234567890</a>
+            </div>
+        </div>
+
+        <h4 class="section-title">Stay Connected</h4>
+        <div class="section-card">
+            <p>Stay up-to-date with the latest news, updates, and health tips by following us on social media. Connect with us on Facebook or Instagram to join our growing community.</p>
+        </div>
+
+        <h4 class="section-title">Location</h4>
+        <div class="section-card">
+            <p>Mangalore, Karnataka, India</p>
+        </div>
+
+        <h4 class="section-title">Contact Form</h4>
+        <div class="section-card">
+            <p>We would love to hear from you! Please fill out the form below:</p>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
