@@ -1,7 +1,7 @@
 # Medicine Recommendation System
 
 ## Output
-"medicine_rec.jpg"
+![Medicine Record](medicine_rec.jpg)
 
 ## Overview
 
