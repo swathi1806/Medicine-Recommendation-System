@@ -1,7 +1,7 @@
 # Medicine Recommendation System
 
 ## Output
-"C:\Users\DEEKSHITH\Downloads\medicine_rec.jpg"
+"medicine_rec.jpg"
 
 ## Overview
 
