@@ -1,8 +1,5 @@
 # Medicine Recommendation System
 
-## Output
-![Medicine Record](medicine_rec.jpg)
-
 ## Overview
 
 The Medicine Recommendation System is a Python-based project designed to recommend medicines based on symptoms provided by users. It utilizes a dataset containing symptoms, descriptions, medications, and precautions to generate accurate recommendations.
@@ -32,3 +29,6 @@ diets.csv: Suggests dietary recommendations.
 medications.csv: Lists medications for various diseases.
 
 precautions_df.csv: Suggests precautions for diseases.
+
+## Output
+![Medicine Record](medicine_rec.jpg)
