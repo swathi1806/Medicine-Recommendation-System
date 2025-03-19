@@ -13,3 +13,19 @@ Provides additional information such as disease descriptions and precautions.
 Includes a dataset for training and recommendation purposes.
 
 Uses a database (users.db) for user management (if applicable).
+
+## Dataset Information
+
+The system uses various datasets to analyze symptoms and recommend medicines. The key datasets include:
+
+Symptom-severity.csv: Defines the severity of symptoms.
+
+Training.csv: Contains training data for disease prediction.
+
+description.csv: Provides disease descriptions.
+
+diets.csv: Suggests dietary recommendations.
+
+medications.csv: Lists medications for various diseases.
+
+precautions_df.csv: Suggests precautions for diseases.
